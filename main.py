@@ -230,7 +230,7 @@ class Ball:
                 colorswitches.remove(cs)
 
     def die(self):
-        self.dying_counter = 0
+        self.dying_counter = 0 
         self.dead = True
         for i in range(50):
             temp = ExplosionBall(self.surface, self.x, self.y)
